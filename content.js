@@ -113,7 +113,7 @@ window.PORTFOLIO = {
 
   /* ============== 2. NEUROSYNAPSE ============== */
   neurosynapse: {
-    meta: "Youth mental health and neuroscience · April 2025 – present · [Instagram](https://www.instagram.com/_neurosynapse_) · [Borderless](https://launchpad.borderless.so/neurosynapse-4g55dx)",
+    meta: "Youth mental health and neuroscience · April 2025 – present · [Instagram](https://www.instagram.com/_neurosynapse_)",
     blocks: [
       { type: "p", text: "NeuroSynapse started with my own stress. During my gap year I was anxious about my future and could not stop wondering whether other young people felt the same way. So I wrote a survey and asked them. 212 young people answered, and they described academic pressure, an uncertain future, and trouble sleeping and concentrating. Most said they wanted counselling in their schools and colleges, and almost none had it." },
       { type: "p", text: "That survey changed my direction. It was the first time I saw that a question, asked carefully, could turn private worries into evidence. It also led me to the NICVD wards: when I described NeuroSynapse to a cardiologist, he invited me into his hospital to do research. What began as curiosity about stress pulled me toward neuroscience and public health, and toward the idea that the brain and the body cannot be studied apart." },
@@ -128,7 +128,7 @@ window.PORTFOLIO = {
             "Drawing, poetry, and song activities for school children, where every child who took part was recognized.",
             "The July Revolution study in Research Project 1 is part of NeuroSynapse."
           ] },
-          { type: "callout", icon: "🏆", tone: "purple", text: "NeuroSynapse ranked **#1 on the [Borderless Student Launchpad](https://launchpad.borderless.so/neurosynapse-4g55dx)**." }
+          { type: "callout", icon: "🏆", tone: "purple", text: "NeuroSynapse ranked **#1 on the Borderless Student Launchpad**." }
         ]
       }
     ]
@@ -322,7 +322,7 @@ window.PORTFOLIO = {
 
   /* ============== 9. MOMENTS & FEATURED ============== */
   featured: [
-    { title: "NeuroSynapse ranked #1 on the Borderless Student Launchpad", meta: "Borderless", url: "https://launchpad.borderless.so/neurosynapse-4g55dx" },
+    { title: "NeuroSynapse ranked #1 on the Borderless Student Launchpad", meta: "Borderless" },
     { title: "Featured in the newspaper while collecting data for my July Revolution research", meta: "News · Facebook", url: "https://www.facebook.com/share/p/1FYaFdjQqu/" },
     { title: "YouthGEN 2025", meta: "TECHious", url: "https://techious.org/youthgen-2025/" },
     { title: "Science project presentation, National Science and Technology Fair", meta: "Video · Facebook", url: "https://www.facebook.com/share/v/1BJ9uj1Hp4/" },

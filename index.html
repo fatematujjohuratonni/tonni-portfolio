@@ -218,7 +218,7 @@ section.dark .thumb .zoom{border-color:#34406a}
 /* featured */
 .featured{list-style:none;margin:0;padding:0}
 .featured li{border-top:1px solid var(--line)}
-.featured a{display:flex;align-items:baseline;justify-content:space-between;gap:20px;padding:20px 0;text-decoration:none;color:var(--ink)}
+.featured a,.featured .nolink{display:flex;align-items:baseline;justify-content:space-between;gap:20px;padding:20px 0;text-decoration:none;color:var(--ink)}
 .featured a:hover h3{color:var(--blue)}
 .featured h3{font-family:var(--serif);font-size:clamp(1.35rem,2.5vw,1.8rem);line-height:1.15}
 .featured .src{flex:none;font-size:.8rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
@@ -270,7 +270,7 @@ footer b{color:#fff;font-family:var(--serif);font-size:1.3rem;letter-spacing:.05
   .feature{grid-template-columns:1fr;padding:20px}
   .feature .thumb,.feature .thumb .zoom{width:100%}
   .certs{grid-template-columns:1fr 1fr;gap:24px 12px}
-  .featured a{flex-direction:column;gap:4px}
+  .featured a,.featured .nolink{flex-direction:column;gap:4px}
   .menu{right:-4px;min-width:min(280px,calc(100vw - 32px))}
   .lb-prev,.lb-next{top:auto;bottom:calc(env(safe-area-inset-bottom,0px) + 16px)}
 }
@@ -466,7 +466,7 @@ footer b{color:#fff;font-family:var(--serif);font-size:1.3rem;letter-spacing:.05
 
   // featured + moments
   h += '<section class="sec" id="featured"><div class="wrap">'+head('10 · Moments & Featured','Moments & Featured','')
-     + '<h3 class="sub">Featured</h3><ul class="featured">'+D.featured.map(function(f){return '<li><a href="'+esc(f.url)+'"'+ext(f.url)+'><h3>'+esc(f.title)+'</h3><span class="src">'+esc(f.meta)+' ↗</span></a></li>'}).join('')+'</ul>'
+     + '<h3 class="sub">Featured</h3><ul class="featured">'+D.featured.map(function(f){return f.url?'<li><a href="'+esc(f.url)+'"'+ext(f.url)+'><h3>'+esc(f.title)+'</h3><span class="src">'+esc(f.meta)+' ↗</span></a></li>':'<li><div class="nolink"><h3>'+esc(f.title)+'</h3><span class="src">'+esc(f.meta)+'</span></div></li>'}).join('')+'</ul>'
      + '<h3 class="sub">Moments</h3>'+(D.moments.length?'<div class="thumbs">'+D.moments.map(function(m){return thumb(m,'moments')}).join('')+'</div>':'<p class="coming">'+esc(D.momentsComingSoon)+'</p>')
      + '</div></section>';
 
