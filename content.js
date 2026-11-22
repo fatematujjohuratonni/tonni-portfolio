@@ -212,6 +212,7 @@ window.PORTFOLIO = {
       { type: "gallery",
         items: [
           { image: "assets/photos/teamwork-science-fair-45.jpg", caption: "With my teammates, building our project for the 45th National Science and Technology Fair.", alt: "Seven students in light blue uniforms gathered around a model city with roads, buildings, and solar panels" },
+          { image: "assets/photos/teamwork-science-fair-42.jpg", caption: "With my Rampur High School team at the 42nd National Science and Technology Week and Science Fair, when I was in Class 9.", alt: "Six schoolgirls in masks and red uniforms with their model city project and a crest, beside a man in a blazer" },
           { image: "assets/photos/teamwork-graffiti.jpg", caption: "Painting graffiti on our neighborhood walls together with other young volunteers.", alt: "Tonni and two young men painting a mosque silhouette mural on a white street wall" },
           { image: "assets/photos/teamwork-graffiti-hands.jpg", caption: "Paint on our hands after finishing the wall together.", alt: "A group of smiling young volunteers holding up paint-covered hands on a street" },
           { image: "assets/photos/teamwork-clean-city.jpg", caption: "After a Clean City drive with Volunteer for Bangladesh and fellow students, 6 August 2024.", alt: "A large crowd of young volunteers holding Bangladesh flags on the railway tracks at a station" },
