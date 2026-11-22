@@ -201,7 +201,8 @@ window.PORTFOLIO = {
     blocks: [
       { type: "gallery",
         items: [
-          { image: "assets/photos/teamwork-science-fair-45.jpg", caption: "With my teammates, building our project for the 45th National Science and Technology Fair.", alt: "Seven students in light blue uniforms gathered around a model city with roads, buildings, and solar panels" }
+          { image: "assets/photos/teamwork-science-fair-45.jpg", caption: "With my teammates, building our project for the 45th National Science and Technology Fair.", alt: "Seven students in light blue uniforms gathered around a model city with roads, buildings, and solar panels" },
+          { image: "assets/photos/teamwork-graffiti.jpg", caption: "Painting graffiti on our neighborhood walls together with other young volunteers.", alt: "Tonni and two young men painting a mosque silhouette mural on a white street wall" }
         ],
         side: [
           { type: "p", text: "Our school and college teams reached the national round of the National Science and Technology Fair three times, at the 42nd, 43rd, and 45th fairs, and came home as National Runner-Up each time. A science fair project is never one person’s work: someone wires the lights, someone glues the roads, and someone has to explain all of it to the judges. At the 45th fair, that last job was mine, and I was named Best Presenter." },
