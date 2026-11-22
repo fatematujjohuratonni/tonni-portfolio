@@ -164,8 +164,8 @@ window.PORTFOLIO = {
     photos: [
       { image: "assets/photos/redcrescent-first-aid.jpg", pos: "62% 40%", caption: "Giving first aid to a player at the National Kabaddi Championship, 2025.", alt: "Tonni in a Red Crescent vest and gloves treating a player's head injury" },
       { image: "assets/photos/redcrescent-kabaddi.jpg", caption: "Carrying an injured player off the mat on a stretcher.", alt: "Red Crescent volunteers carrying an injured player on a stretcher across a kabaddi hall" },
-      { image: "assets/photos/redcrescent-kabaddi-team.jpg", caption: "Our Red Crescent first-aid team, ready beside the kabaddi court.", alt: "Five Red Crescent volunteers seated behind a stretcher and a first-aid bag" },
       { image: "assets/photos/redcrescent-cumilla-unit.jpg", caption: "With fellow volunteers at the Bangladesh Red Crescent Society, Cumilla Unit.", alt: "A large group of Red Crescent volunteers in red vests outside the Cumilla unit office" },
+      { image: "assets/photos/redcrescent-first-aid-training-2023.jpg", caption: "Our Red Crescent basic first-aid training at Cumilla Collectorate School and College, 2023.", alt: "A large group of students in uniforms and Red Crescent aprons holding up first-aid training certificates" },
       { image: "assets/photos/redcrescent-dengue-cleanup.jpg", caption: "Clearing trash where mosquitoes breed, as part of a Red Crescent dengue-prevention drive.", alt: "Tonni and a fellow Red Crescent volunteer in red vests and gloves picking up litter from a grassy yard" },
       { image: "assets/photos/scouts-traffic.jpg", caption: "Directing traffic on a rainy day in Cumilla as a Bangladesh Scouts volunteer.", alt: "Tonni in scout uniform directing auto-rickshaws on a busy street" },
       { image: "assets/photos/fire-service-training-group.jpg", caption: "Fire Service and Civil Defense Volunteer Training, December 2025.", alt: "Scouts and fire service officers posing behind a training banner" },
@@ -199,14 +199,14 @@ window.PORTFOLIO = {
   teamwork: {
     lead: "Most of what I am proud of, I did with other people.",
     blocks: [
+      { type: "p", text: "Our school and college teams reached the national round of the National Science and Technology Fair three times, at the 42nd, 43rd, and 45th fairs, and came home as National Runner-Up each time. A science fair project is never one person’s work: someone wires the lights, someone glues the roads, and someone has to explain all of it to the judges. At the 45th fair, that last job was mine, and I was named Best Presenter." },
+      { type: "p", text: "Working in teams like this taught me to listen first and to give everyone a part they can own." },
       { type: "gallery",
         items: [
           { image: "assets/photos/teamwork-science-fair-45.jpg", caption: "With my teammates, building our project for the 45th National Science and Technology Fair.", alt: "Seven students in light blue uniforms gathered around a model city with roads, buildings, and solar panels" },
-          { image: "assets/photos/teamwork-graffiti.jpg", caption: "Painting graffiti on our neighborhood walls together with other young volunteers.", alt: "Tonni and two young men painting a mosque silhouette mural on a white street wall" }
-        ],
-        side: [
-          { type: "p", text: "Our school and college teams reached the national round of the National Science and Technology Fair three times, at the 42nd, 43rd, and 45th fairs, and came home as National Runner-Up each time. A science fair project is never one person’s work: someone wires the lights, someone glues the roads, and someone has to explain all of it to the judges. At the 45th fair, that last job was mine, and I was named Best Presenter." },
-          { type: "p", text: "Working in teams like this taught me to listen first and to give everyone a part they can own." }
+          { image: "assets/photos/teamwork-graffiti.jpg", caption: "Painting graffiti on our neighborhood walls together with other young volunteers.", alt: "Tonni and two young men painting a mosque silhouette mural on a white street wall" },
+          { image: "assets/photos/teamwork-clean-city.jpg", caption: "After a Clean City drive with Volunteer for Bangladesh and fellow students, 6 August 2024.", alt: "A large crowd of young volunteers holding Bangladesh flags on the railway tracks at a station" },
+          { image: "assets/photos/teamwork-redcrescent-group.jpg", caption: "With my Red Crescent team at the Bangladesh Red Crescent Society, Cumilla Unit.", alt: "About thirty Red Crescent volunteers in red vests posing outside the Cumilla unit office" }
         ]
       }
     ]
