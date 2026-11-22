@@ -16,9 +16,9 @@ window.PORTFOLIO = {
   cover: "assets/photos/cover.jpg",
   coverAlt: "A collage of twelve photos of Tonni: speaking on stage, receiving awards, volunteering with Red Crescent, painting a mural, and with children during a winter clothes drive",
 
-  quoteBn: "“তুমি পারবে, তুমি যাও, মাইকটা নিয়ে কবিতাটা আবৃত্তি করো।”",
+  quoteBn: "",
   quoteEn: "“You can do it. Go, take the microphone, and recite the poem.”",
-  intro: "My mother, who never got to finish school herself, said this to me at a village school, and it was the first time anyone handed me a voice. I have spent every year since trying to pass that microphone on. Through NeuroSynapse, I let 212 young people talk about the stress no one had asked them about. At the bedsides of the National Institute of Cardiovascular Diseases, I let heart-attack patients tell me how they really live. In classrooms, I hand the questions to younger students and wait for their answers. I am a first-generation student headed toward neuroscience, and I want to spend my life making sure the people who are rarely heard are the first to be listened to.",
+  intro: "My mother said these words to me when I was in first grade, at my village primary school, and it was the first time anyone handed me a voice. I have been trying to pass that microphone on ever since. I believe learning becomes complete only when we teach it to someone else, put it to use in real life, and let it make a difference for the people around us. That belief shapes everything I do. Through NeuroSynapse, I asked 212 young people about the stress no one had asked them about. At the bedsides of the National Institute of Cardiovascular Diseases, I listen to heart-attack patients describe how they really live, so that the advice they receive fits their lives. In classrooms, I hand the questions to younger students and wait for their answers. As a first-generation student headed toward neuroscience, my goal is to keep turning what I learn into something that helps the people around me.",
 
   numbers: [
     { value: "3",    label: "international research conferences" },
