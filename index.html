@@ -402,7 +402,7 @@ footer b{color:#fff;font-family:var(--serif);font-size:1.3rem;letter-spacing:.05
   // cover + intro
   h += '<div class="cover"><img src="'+esc(D.cover)+'" alt="'+esc(D.coverAlt)+'"></div>';
   h += '<section class="intro"><div class="wrap"><p class="eyebrow">'+esc(D.eyebrow)+'</p><h1>'+esc(D.name)+'</h1>'
-     + '<div class="quote">'+(D.quoteBn?'<p class="bn" lang="bn">'+esc(D.quoteBn)+'</p>':'')+'<p class="en">'+esc(D.quoteEn)+'</p><p class="bio">'+fmt(D.intro)+'</p></div>'
+     + '<div class="quote">'+(D.quoteBn?'<p class="bn" lang="bn">'+esc(D.quoteBn)+'</p>':'')+'<p class="en">'+esc(D.quoteEn)+'</p>'+D.intro.split('\n\n').map(function(t){return '<p class="bio">'+fmt(t)+'</p>'}).join('')+'</div>'
      + '<div class="connect-row">'+D.connect.map(function(c){return '<a href="'+esc(c.url)+'"'+ext(c.url)+'>'+ICONS[c.kind]+esc(c.label)+'</a>'}).join('')+'</div>'
      + '<div class="numbers">'+D.numbers.map(function(n){return '<div><b>'+esc(n.value)+'</b><span>'+esc(n.label)+'</span></div>'}).join('')+'</div></div></section>';
 
