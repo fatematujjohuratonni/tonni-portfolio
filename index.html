@@ -306,11 +306,11 @@ footer b{color:#fff;font-family:var(--serif);font-size:1.3rem;letter-spacing:.05
       <li><a href="#service">Service &amp; Leadership</a></li>
       <li><a href="#teamwork">Teamwork</a></li>
       <li><a href="#mic">Mic Is Mine</a></li>
-      <li><a href="#writing">Writing</a></li>
+      <li><a href="#onstage">On Stage</a></li>
       <li><a href="#art">Art</a></li>
       <li><a href="#awards">Awards</a></li>
       <li><a href="#featured">Featured</a></li>
-      <li><a href="#onstage">On Stage</a></li>
+      <li><a href="#writing">Writing</a></li>
     </ul></div>
     <div class="more">
       <button class="more-btn" id="moreBtn" type="button" aria-expanded="false" aria-controls="moreMenu">
@@ -444,9 +444,8 @@ footer b{color:#fff;font-family:var(--serif);font-size:1.3rem;letter-spacing:.05
 
   // writing + art
   var W = D.writing, A = D.art;
-  h += '<section class="sec alt" id="writing"><div class="wrap">'+head('07 · Writing','Writing',W.lead)
-     + '<ul class="list-plain">'+W.items.map(function(x){return '<li><b>'+esc(x.title)+'</b><span>'+esc(x.text)+'</span></li>'}).join('')+'</ul>'
-     + (W.comingSoon?'<p class="coming">'+esc(W.comingSoon)+'</p>':'')+'</div></section>';
+  h += '<section class="sec alt tone-purple" id="onstage"><div class="wrap">'+head('07 · On Stage','On Stage',D.onstage.lead)
+     + '<div class="thumbs">'+D.onstage.photos.map(function(p){return thumb(p,'stage')}).join('')+'</div></div></section>';
   h += '<section class="sec" id="art"><div class="wrap">'+head('08 · Art & Photography','Art & Photography',A.lead)
      + (A.items.length?'<div class="thumbs" style="margin-bottom:22px">'+A.items.map(function(p){return thumb(p,'art')}).join('')+'</div>':'')
      + (A.comingSoon?'<p class="coming">'+esc(A.comingSoon)+'</p>':'')
@@ -471,9 +470,10 @@ footer b{color:#fff;font-family:var(--serif);font-size:1.3rem;letter-spacing:.05
      + '<h3 class="sub">Moments</h3>'+(D.moments.length?'<div class="thumbs">'+D.moments.map(function(m){return thumb(m,'moments')}).join('')+'</div>':'<p class="coming">'+esc(D.momentsComingSoon)+'</p>')
      + '</div></section>';
 
-  // on stage
-  h += '<section class="sec alt tone-purple" id="onstage"><div class="wrap">'+head('11 · On Stage','On Stage',D.onstage.lead)
-     + '<div class="thumbs">'+D.onstage.photos.map(function(p){return thumb(p,'stage')}).join('')+'</div></div></section>';
+  // writing
+  h += '<section class="sec alt" id="writing"><div class="wrap">'+head('11 · Writing','Writing',W.lead)
+     + '<ul class="list-plain">'+W.items.map(function(x){return '<li><b>'+esc(x.title)+'</b><span>'+esc(x.text)+'</span></li>'}).join('')+'</ul>'
+     + (W.comingSoon?'<p class="coming">'+esc(W.comingSoon)+'</p>':'')+'</div></section>';
 
   // more
   h += '<section class="sec" id="education"><div class="wrap">'+head('More · Education','Education','')
