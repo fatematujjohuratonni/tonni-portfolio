@@ -18,7 +18,7 @@ window.PORTFOLIO = {
 
   quoteBn: "",
   quoteEn: "“You can do it. Go, take the microphone, and recite the poem.”",
-  intro: "My mother said these words to me when I was in first grade at my village primary school. I took the microphone, recited my poem, and realized for the first time that my voice could reach a whole room of people.\n\nSince then, I have come to believe that learning is complete only when we share it with someone else, use it in real life, and let it make a difference for the people around us. That belief shapes everything I do. Through NeuroSynapse, I asked 212 young people about the stress no one had asked them about before. At the National Institute of Cardiovascular Diseases, I sit beside heart-attack patients and listen to how they really live, so that the advice they receive can fit their lives. In classrooms, I teach younger students and let them ask the questions.\n\nI am a first-generation student hoping to study neuroscience. My goal is to keep learning, and to make sure that what I learn reaches the people who need it most.",
+  intro: "My mother said this to me in first grade, at my village primary school. I took the microphone, and for the first time, a whole room listened.\n\nI believe learning is complete only when we teach it, use it, and let it change the lives around us. That is why I asked 212 young people about their stress, why I sit beside heart-attack patients at the National Institute of Cardiovascular Diseases, and why I teach younger students. As a first-generation student headed toward neuroscience, I want what I learn to reach the people who need it most.",
 
   numbers: [
     { value: "3",    label: "international research conferences" },
