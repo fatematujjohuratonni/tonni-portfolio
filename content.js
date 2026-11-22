@@ -12,7 +12,7 @@
 window.PORTFOLIO = {
 
   name: "Fatematuj Johura Tonni",
-  eyebrow: "Cumilla, Bangladesh · First-generation student · Intended major: Neuroscience (with interests in Psychology and Biology)",
+  eyebrow: "First-generation student · Intended major: Neuroscience (with interests in Psychology and Biology)",
   cover: "assets/photos/cover.jpg",
   coverAlt: "A collage of twelve photos of Tonni: speaking on stage, receiving awards, volunteering with Red Crescent, painting a mural, and with children during a winter clothes drive",
 
