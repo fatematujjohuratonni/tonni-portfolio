@@ -18,7 +18,7 @@ window.PORTFOLIO = {
 
   quoteBn: "",
   quoteEn: "“You can do it. Go, take the microphone, and recite the poem.”",
-  intro: "My mother said this to me in first grade, at my village primary school. I took the microphone, and a whole room listened. I have been passing that microphone on ever since.\n\nIn my genetics class, I draw until my students can explain it back to me.\nIn my Red Crescent jacket, I learned to stay calm so others could.\nThrough NeuroSynapse and at heart-attack patients’ bedsides, I learned that one careful question can make a hidden worry visible.\nAnd the saplings I planted as a child became seeds for flood-affected women.\n\nI believe learning is complete only when it reaches someone else. That is the neuroscientist I want to become.",
+  intro: "My mother said this to me in first grade, at my village primary school. I took the microphone, and a whole room listened. I have been passing that microphone on ever since.\n\nIn my genetics class, I draw until my students can explain it back to me.\nIn my Red Crescent jacket, I learned to stay calm so others could.\nThrough NeuroSynapse and at heart-attack patients’ bedsides, I learned that one careful question can make a hidden worry visible.\nAnd the saplings I planted as a child became seeds for flood-affected women.\n\nI believe learning is complete only when it reaches someone else. I want to study the brain so I can understand people more deeply, and serve them better.",
 
   numbers: [
     { value: "3",    label: "international research conferences" },
