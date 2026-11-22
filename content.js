@@ -335,7 +335,7 @@ window.PORTFOLIO = {
 
   /* ============== MORE (opens from the ≡ menu) ============== */
   education: [
-    { school: "Cumilla Collectorate School and College", detail: "HSC (Science), 2024 · GPA 4.83/5.00 · ranked 3rd of 500 students · Biology GPA 5.00" },
+    { school: "Cumilla Collectorate School and College", detail: "HSC (Science), 2024 · GPA 4.83/5.00" },
     { school: "Rampur High School, a village school in Cumilla", detail: "SSC (Science), 2022 · GPA 5.00/5.00" }
   ],
   skills: [
