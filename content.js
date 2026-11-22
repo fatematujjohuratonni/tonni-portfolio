@@ -161,17 +161,25 @@ window.PORTFOLIO = {
       { title: "Flood relief and community school", dates: "2024 – present",
         text: "Led a fundraiser that brought drinking water and dry food to more than 200 flood-affected families, and teach at a free community school for children who would otherwise be working." }
     ],
-    photos: [
-      { image: "assets/photos/redcrescent-first-aid.jpg", pos: "62% 40%", caption: "Giving first aid to a player at the National Kabaddi Championship, 2025.", alt: "Tonni in a Red Crescent vest and gloves treating a player's head injury" },
-      { image: "assets/photos/redcrescent-kabaddi.jpg", caption: "Carrying an injured player off the mat on a stretcher.", alt: "Red Crescent volunteers carrying an injured player on a stretcher across a kabaddi hall" },
-      { image: "assets/photos/redcrescent-cumilla-unit.jpg", caption: "With fellow volunteers at the Bangladesh Red Crescent Society, Cumilla Unit.", alt: "A large group of Red Crescent volunteers in red vests outside the Cumilla unit office" },
-      { image: "assets/photos/redcrescent-first-aid-training-2023.jpg", caption: "Our Red Crescent basic first-aid training at Cumilla Collectorate School and College, 2023.", alt: "A large group of students in uniforms and Red Crescent aprons holding up first-aid training certificates" },
-      { image: "assets/photos/redcrescent-dengue-cleanup.jpg", caption: "Clearing trash where mosquitoes breed, as part of a Red Crescent dengue-prevention drive.", alt: "Tonni and a fellow Red Crescent volunteer in red vests and gloves picking up litter from a grassy yard" },
-      { image: "assets/photos/scouts-traffic.jpg", caption: "Directing traffic on a rainy day in Cumilla as a Bangladesh Scouts volunteer.", alt: "Tonni in scout uniform directing auto-rickshaws on a busy street" },
-      { image: "assets/photos/fire-service-training-group.jpg", caption: "Fire Service and Civil Defense Volunteer Training, December 2025.", alt: "Scouts and fire service officers posing behind a training banner" },
-      { image: "assets/photos/winter-drive-baby.jpg", caption: "Clothes we no longer wore were still warm for someone who had none.", alt: "Tonni holding a baby beside the baby’s mother during the winter clothes drive" },
-      { image: "assets/photos/winter-drive-railway.jpg", caption: "A warm morning on a railway platform.", alt: "Tonni hugging a smiling child in warm new clothes on a railway platform" },
-      { image: "assets/photos/flood-relief-truck.jpg", caption: "One truck, many doorsteps: flood relief.", alt: "A truck loaded with bottled water, bananas, and sacks of food for flood relief" }
+    photoGroups: [
+      { label: "Bangladesh Red Crescent Society", photos: [
+        { image: "assets/photos/redcrescent-first-aid.jpg", pos: "62% 40%", caption: "Giving first aid to a player at the National Kabaddi Championship, 2025.", alt: "Tonni in a Red Crescent vest and gloves treating a player's head injury" },
+        { image: "assets/photos/redcrescent-kabaddi.jpg", caption: "Carrying an injured player off the mat on a stretcher.", alt: "Red Crescent volunteers carrying an injured player on a stretcher across a kabaddi hall" },
+        { image: "assets/photos/redcrescent-cumilla-unit.jpg", caption: "With fellow volunteers at the Bangladesh Red Crescent Society, Cumilla Unit.", alt: "A large group of Red Crescent volunteers in red vests outside the Cumilla unit office" },
+        { image: "assets/photos/redcrescent-first-aid-training-2023.jpg", caption: "Our Red Crescent basic first-aid training at Cumilla Collectorate School and College, 2023.", alt: "A large group of students in uniforms and Red Crescent aprons holding up first-aid training certificates" },
+        { image: "assets/photos/redcrescent-dengue-cleanup.jpg", caption: "Clearing trash where mosquitoes breed, as part of a Red Crescent dengue-prevention drive.", alt: "Tonni and a fellow Red Crescent volunteer in red vests and gloves picking up litter from a grassy yard" },
+        { image: "assets/photos/redcrescent-portrait.jpg", pos: "50% 30%", caption: "On duty as a Youth Volunteer with the Bangladesh Red Crescent Society.", alt: "Tonni in a red Red Crescent vest and cap, arms folded, standing outside a white building" }
+      ] },
+      { label: "Bangladesh Scouts", photos: [
+        { image: "assets/photos/scouts-traffic.jpg", caption: "Directing traffic on a rainy day in Cumilla as a Bangladesh Scouts volunteer.", alt: "Tonni in scout uniform directing auto-rickshaws on a busy street" },
+        { image: "assets/photos/scouts-shaheed-dibosh-2026.jpg", caption: "Laying flowers with my scout group on Shaheed Dibosh and International Mother Language Day, 2026.", alt: "Scouts and teachers placing a floral wreath at a memorial in Cumilla" },
+        { image: "assets/photos/fire-service-training-group.jpg", caption: "Fire Service and Civil Defense Volunteer Training, December 2025.", alt: "Scouts and fire service officers posing behind a training banner" }
+      ] },
+      { label: "Winter clothes drive and flood relief", photos: [
+        { image: "assets/photos/winter-drive-baby.jpg", caption: "Clothes we no longer wore were still warm for someone who had none.", alt: "Tonni holding a baby beside the baby’s mother during the winter clothes drive" },
+        { image: "assets/photos/winter-drive-railway.jpg", caption: "A warm morning on a railway platform.", alt: "Tonni hugging a smiling child in warm new clothes on a railway platform" },
+        { image: "assets/photos/flood-relief-truck.jpg", caption: "One truck, many doorsteps: flood relief.", alt: "A truck loaded with bottled water, bananas, and sacks of food for flood relief" }
+      ] }
     ],
     youthgen: {
       title: "Organizer, YouthGEN 2025",
@@ -205,8 +213,10 @@ window.PORTFOLIO = {
         items: [
           { image: "assets/photos/teamwork-science-fair-45.jpg", caption: "With my teammates, building our project for the 45th National Science and Technology Fair.", alt: "Seven students in light blue uniforms gathered around a model city with roads, buildings, and solar panels" },
           { image: "assets/photos/teamwork-graffiti.jpg", caption: "Painting graffiti on our neighborhood walls together with other young volunteers.", alt: "Tonni and two young men painting a mosque silhouette mural on a white street wall" },
+          { image: "assets/photos/teamwork-graffiti-hands.jpg", caption: "Paint on our hands after finishing the wall together.", alt: "A group of smiling young volunteers holding up paint-covered hands on a street" },
           { image: "assets/photos/teamwork-clean-city.jpg", caption: "After a Clean City drive with Volunteer for Bangladesh and fellow students, 6 August 2024.", alt: "A large crowd of young volunteers holding Bangladesh flags on the railway tracks at a station" },
-          { image: "assets/photos/teamwork-redcrescent-group.jpg", caption: "With my Red Crescent team at the Bangladesh Red Crescent Society, Cumilla Unit.", alt: "About thirty Red Crescent volunteers in red vests posing outside the Cumilla unit office" }
+          { image: "assets/photos/teamwork-redcrescent-group.jpg", caption: "With my Red Crescent team at the Bangladesh Red Crescent Society, Cumilla Unit.", alt: "About thirty Red Crescent volunteers in red vests posing outside the Cumilla unit office" },
+          { image: "assets/photos/teamwork-dengue-campaign-2025.jpg", caption: "Our Red Crescent team at the Dengue Prevention Campaign 2025, Upazila Health Complex, Barura, Cumilla.", alt: "Red Crescent volunteers and health officials holding a dengue prevention banner outside a health complex" }
         ]
       }
     ]
@@ -321,6 +331,7 @@ window.PORTFOLIO = {
   onstage: {
     lead: "A few of the moments when the hard work came back as a prize.",
     photos: [
+      { image: "assets/photos/prize-books-gift.jpg", pos: "30% 50%", caption: "Receiving books as a prize.", alt: "Tonni receiving a gift-wrapped prize of books from three men at a table" },
       { image: "assets/photos/prize-library-dc.jpg", pos: "92% 50%", caption: "A prize-giving at the Cumilla District Public Library, with the Deputy Commissioner of Cumilla as chief guest.", alt: "Tonni receiving a prize from officials at a table" },
       { image: "assets/photos/prize-library-certificate.jpg", caption: "Receiving a certificate at the Cumilla District Public Library.", alt: "Tonni holding a certificate beside an elderly man" },
       { image: "assets/photos/prize-victory-poetry.jpg", caption: "Receiving a book at a Victory Day poetry recital, Birchandra Library, Cumilla.", alt: "Tonni holding a book beside a girl and an elderly man in front of a Victory Day banner" },
