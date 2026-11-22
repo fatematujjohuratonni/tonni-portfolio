@@ -448,7 +448,7 @@ footer b{color:#fff;font-family:var(--serif);font-size:1.3rem;letter-spacing:.05
      + '<ul class="list-plain">'+W.items.map(function(x){return '<li><b>'+esc(x.title)+'</b><span>'+esc(x.text)+'</span></li>'}).join('')+'</ul>'
      + (W.comingSoon?'<p class="coming">'+esc(W.comingSoon)+'</p>':'')+'</div></section>';
   h += '<section class="sec" id="art"><div class="wrap">'+head('08 · Art & Photography','Art & Photography',A.lead)
-     + (A.items.length?'<div class="thumbs">'+A.items.map(function(p){return thumb(p,'art')}).join('')+'</div>':'')
+     + (A.items.length?'<div class="thumbs" style="margin-bottom:22px">'+A.items.map(function(p){return thumb(p,'art')}).join('')+'</div>':'')
      + (A.comingSoon?'<p class="coming">'+esc(A.comingSoon)+'</p>':'')
      + (A.note?'<p style="max-width:60ch;color:var(--ink-2)">'+esc(A.note)+'</p>':'')
      + (A.link?'<p style="margin-top:20px"><a class="btn-art" href="'+esc(A.link.url)+'" target="_blank" rel="noopener">'+esc(A.link.label)+'</a></p>':'')+'</div></section>';

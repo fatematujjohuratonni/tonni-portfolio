@@ -232,7 +232,9 @@ window.PORTFOLIO = {
       { icon: "🎶", title: "Music and anchoring", text: "First place in folk song at the Bangladesh Scouts Talent Hunt 2026, and anchor for school and cultural programs.", filter: null }
     ],
     photos: [
-      { image: "assets/photos/mic-podium.jpg", caption: "Speaking at the podium.", alt: "Tonni speaking into a microphone at a podium beside a man in a suit" }
+      { image: "assets/photos/mic-podium.jpg", caption: "Speaking at the podium.", alt: "Tonni speaking into a microphone at a podium beside a man in a suit" },
+      { image: "assets/photos/mic-youth-day.jpg", pos: "50% 40%", caption: "Giving a speech on Youth Day at the Bangladesh Red Crescent Society.", alt: "Tonni speaking into a Red Crescent microphone at a podium" },
+      { image: "assets/photos/mic-singing-barsha.jpg", caption: "Singing with a friend at Youth Red Crescent’s Barsha Utsab, the monsoon festival, 2025.", alt: "Tonni singing into a microphone beside a friend, under decorative umbrellas" }
     ]
   },
 
@@ -249,9 +251,11 @@ window.PORTFOLIO = {
   /* ============== 7. ART & PHOTOGRAPHY ============== */
   art: {
     lead: "Let me show you how my heart beats in colors.",
-    items: [],
+    items: [
+      { image: "assets/photos/art-wall-lettering.jpg", pos: "45% 50%", caption: "Hand-lettering a street wall: “We brought independence; we will bring reform too.”", alt: "Tonni painting green and red Bangla lettering on a white wall" }
+    ],
     comingSoon: "",
-    note: "My paintings, crafts, and photographs live in their own portfolio. Click below to see them.",
+    note: "To see more of my art and crafts, including paintings and photographs, click the link below to visit my Google Site.",
     link: { url: "https://sites.google.com/view/artphotographyportfolio-tonni/home", label: "See my art and photography →" }
   },
 
