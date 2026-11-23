@@ -92,7 +92,7 @@ button{font:inherit;color:inherit}
 .intro{padding:56px 0 72px}
 .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--blue)}
 .intro h1{font-family:var(--serif);font-size:clamp(2.6rem,7vw,5.2rem);line-height:.98;margin-top:14px}
-.quote{margin-top:30px;max-width:780px;background:var(--blue-soft);border-left:4px solid var(--blue);padding:26px 30px;border-radius:0 8px 8px 0}
+.quote{margin-top:30px;max-width:none;background:var(--blue-soft);border-left:4px solid var(--blue);padding:26px 30px;border-radius:0 8px 8px 0}
 .quote .bn{font-family:var(--bn);font-weight:600;font-size:clamp(1.15rem,2.2vw,1.4rem);line-height:1.5}
 .quote .en{font-family:var(--serif);font-style:italic;font-size:clamp(1.2rem,2.2vw,1.45rem);margin-top:6px;color:var(--ink-2)}
 .quote .bio{margin-top:16px;color:var(--ink-2);font-size:1.02rem}
@@ -109,7 +109,7 @@ button{font:inherit;color:inherit}
 /* sections */
 section.sec{padding:84px 0;border-top:1px solid var(--line)}
 section.sec.alt{background:var(--paper-2)}
-.sec-head{max-width:760px;margin-bottom:40px}
+.sec-head{max-width:none;margin-bottom:40px}
 .sec-head h2{font-family:var(--serif);font-size:clamp(2.3rem,5vw,3.6rem);line-height:1.02;margin-top:10px}
 .sec-head .meta{margin-top:10px;font-weight:600;color:var(--muted);font-size:.95rem}
 .sec-head p.lead{font-family:var(--serif);font-size:clamp(1.2rem,2vw,1.45rem);line-height:1.45;color:var(--ink-2);margin-top:14px;font-style:italic}
@@ -119,9 +119,9 @@ section.sec.alt{background:var(--paper-2)}
 
 /* blocks */
 .blocks > * + *{margin-top:18px}
-.blocks p{max-width:74ch;color:var(--ink-2)}
+.blocks p{max-width:none;color:var(--ink-2)}
 .blocks p b{color:var(--ink)}
-.callout{display:flex;gap:14px;padding:16px 18px;border-radius:8px;background:var(--blue-soft);max-width:860px}
+.callout{display:flex;gap:14px;padding:16px 18px;border-radius:8px;background:var(--blue-soft);max-width:none}
 .callout.purple{background:var(--purple-soft)}
 .callout .ic{font-size:1.25rem;line-height:1.4}
 .callout p{color:var(--ink)}
@@ -161,7 +161,7 @@ section.sec.alt{background:var(--paper-2)}
 .project{padding:48px 0 8px;border-top:1px solid var(--line);margin-top:48px}
 .project .kick{font-size:.8rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--purple)}
 .project h3{font-family:var(--serif);font-size:clamp(1.8rem,3.2vw,2.5rem);line-height:1.1;margin-top:6px}
-.project .pmeta{margin-top:8px;color:var(--muted);font-size:.95rem;font-weight:600;max-width:80ch}
+.project .pmeta{margin-top:8px;color:var(--muted);font-size:.95rem;font-weight:600;max-width:none}
 
 /* roles */
 .roles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 48px}
@@ -449,7 +449,7 @@ footer b{color:#fff;font-family:var(--serif);font-size:1.3rem;letter-spacing:.05
   h += '<section class="sec" id="art"><div class="wrap">'+head('08 · Art & Photography','Art & Photography',A.lead)
      + (A.items.length?'<div class="thumbs" style="margin-bottom:22px">'+A.items.map(function(p){return thumb(p,'art')}).join('')+'</div>':'')
      + (A.comingSoon?'<p class="coming">'+esc(A.comingSoon)+'</p>':'')
-     + (A.note?'<p style="max-width:60ch;color:var(--ink-2)">'+esc(A.note)+'</p>':'')
+     + (A.note?'<p style="color:var(--ink-2)">'+esc(A.note)+'</p>':'')
      + (A.link?'<p style="margin-top:20px"><a class="btn-art" href="'+esc(A.link.url)+'" target="_blank" rel="noopener">'+esc(A.link.label)+'</a></p>':'')+'</div></section>';
 
   // certificates & awards
