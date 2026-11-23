@@ -183,10 +183,10 @@ section.dark .sec-head p.lead{color:#c5cbe0}
 section.dark .thumb figcaption{color:#c5cbe0}
 section.dark .thumb .zoom{border-color:#34406a}
 .mic-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-.mic-item{padding:22px 24px;border-radius:10px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12)}
+.mic-item{padding:22px 24px;border-radius:10px;background:var(--blue-soft);border:1px solid var(--line,#dfe4f2)}
 .mic-item h3{font-family:var(--serif);font-size:1.7rem}
-.mic-item p{margin-top:8px;color:#d4d9ea}
-.mic-item .textlink{color:#fff}
+.mic-item p{margin-top:8px;color:var(--ink-2)}
+.mic-item .textlink{color:var(--blue)}
 
 .textlink{display:inline-block;margin-top:12px;font-weight:700;text-decoration:none;border-bottom:2px solid currentColor;padding-bottom:1px;background:none;border-top:0;border-left:0;border-right:0;cursor:pointer;color:var(--blue)}
 .btn-art{display:inline-block;padding:14px 24px;border-radius:999px;background:var(--purple);color:#fff;text-decoration:none;font-weight:700}
@@ -305,7 +305,7 @@ footer b{color:#fff;font-family:var(--serif);font-size:1.3rem;letter-spacing:.05
       <li><a href="#bioboost">BioBoost</a></li>
       <li><a href="#service">Service &amp; Leadership</a></li>
       <li><a href="#teamwork">Teamwork</a></li>
-      <li><a href="#mic">Mic Is Mine</a></li>
+      <li><a href="#mic">When I Speak</a></li>
       <li><a href="#onstage">On Stage</a></li>
       <li><a href="#art">Art</a></li>
       <li><a href="#awards">Awards</a></li>
@@ -435,9 +435,9 @@ footer b{color:#fff;font-family:var(--serif);font-size:1.3rem;letter-spacing:.05
   // teamwork
   h += '<section class="sec alt" id="teamwork"><div class="wrap">'+head('05 · Teamwork & Engagement','Teamwork & Engagement',D.teamwork.lead)+blocks(D.teamwork.blocks)+'</div></section>';
 
-  // mic is mine
+  // when i speak
   var M = D.mic;
-  h += '<section class="sec dark" id="mic"><div class="wrap">'+head('06 · Debate, Poems & Extracurriculars','Mic Is Mine',M.lead)
+  h += '<section class="sec" id="mic"><div class="wrap">'+head('06 · Debate, Poems & Extracurriculars','When I Speak',M.lead)
      + '<div class="mic-grid">'+M.highlights.map(function(x){
          return '<div class="mic-item"><h3>'+esc(x.icon)+' '+esc(x.title)+'</h3><p>'+esc(x.text)+'</p>'+(x.filter?'<button class="textlink jump" type="button" data-go="'+x.filter+'">See the certificates</button>':'')+'</div>';
        }).join('')+'</div>'+(M.photos&&M.photos.length?'<div class="thumbs" style="margin-top:24px">'+M.photos.map(function(p){return thumb(p,'mic')}).join('')+'</div>':'')+'</div></section>';

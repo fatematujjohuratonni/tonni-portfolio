@@ -223,7 +223,7 @@ window.PORTFOLIO = {
     ]
   },
 
-  /* ============== 5. MIC IS MINE ============== */
+  /* ============== 5. WHEN I SPEAK ============== */
   mic: {
     lead: "Recitation, debate, speeches, and the occasional folk song. The microphone was my first classroom.",
     highlights: [
