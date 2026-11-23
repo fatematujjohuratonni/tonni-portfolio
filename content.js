@@ -236,18 +236,36 @@ window.PORTFOLIO = {
       { image: "assets/photos/mic-podium.jpg", caption: "Speaking at the podium.", alt: "Tonni speaking into a microphone at a podium beside a man in a suit" },
       { image: "assets/photos/mic-youth-day.jpg", pos: "50% 40%", caption: "Giving a speech on Youth Day at the Bangladesh Red Crescent Society.", alt: "Tonni speaking into a Red Crescent microphone at a podium" },
       { image: "assets/photos/mic-singing-barsha.jpg", caption: "Singing with a friend at Youth Red Crescent’s Barsha Utsab, the monsoon festival, 2025.", alt: "Tonni singing into a microphone beside a friend, under decorative umbrellas" },
-      { image: "assets/photos/mic-rag-day-host.jpg", caption: "Hosting our Rag Day celebration.", alt: "Tonni smiling and speaking into a microphone outdoors as host of the event" }
+      { image: "assets/photos/mic-rag-day-host.jpg", caption: "Hosting our college’s Rag Day farewell celebration, from the first announcement to the last.", alt: "Tonni smiling and speaking into a microphone outdoors as host of the event" }
     ]
   },
 
   /* ============== 6. WRITING ============== */
   writing: {
-    lead: "Essays in Bangla, stories and reflections in English.",
-    items: [
-      { title: "Runner-Up, English Fiesta 1.0 Writing Competition", text: "2024" },
-      { title: "Ten district essay prizes", text: "On national days and literary anniversaries, 2023–2026" }
+    lead: "Essays, poems, book reviews, and local news. Writing is how I make sense of what I see.",
+    blocks: [
+      { type: "h", text: "Book review: Eat That Frog! by Brian Tracy" },
+      { type: "p", text: "Brian Tracy is a Canadian-American speaker and author who writes about productivity and leadership. His central idea is simple: do your hardest and most important task first, and the rest of the day becomes easier. Tracy argues that procrastination, more than a lack of talent, is what wastes our time." },
+      { type: "p", text: "The methods I found most useful were the **80/20 Rule** (the 20% of tasks that bring 80% of results), the **ABCDE Method** for ranking tasks by importance, and **creative procrastination**, which means choosing on purpose which low-value tasks to put off. **My rating: 8/10.** I recommend it to anyone who wants to take back control of their time." },
+      { type: "h", text: "Journalism" },
+      { type: "p", text: "As a sub news editor, I reported on problems in my own community." },
+      { type: "list", items: [
+        "**News report:** the neglected ancestral home of the singer Sachin Dev Burman in Cumilla, and a call to preserve it. [Read the report](https://cumilla24.net/post/%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%85%E0%A6%AF%E0%A6%A4%E0%A7%8D%E0%A6%A8%E0%A6%85%E0%A6%AC%E0%A6%B9%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%9C%E0%A7%87-%E0%A6%86%E0%A6%9B%E0%A7%87-%E0%A6%B6%E0%A6%9A%E0%A7%80%E0%A6%A8-%E0%A6%A6%E0%A7%87%E0%A6%AC%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%A3-%E0%A6%8F%E0%A6%B0-%E0%A6%AA%E0%A7%88%E0%A6%A4%E0%A7%83%E0%A6%95-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%BF)",
+        "**Video report:** a broken road in front of Bharasar Bazaar that caused accidents every day. My first video news report, it passed 100,000 views in under 10 hours. [Watch](https://www.facebook.com/share/v/1CtKhaKh1e/)",
+        "**Visual documentary:** the landscapes of Lakshmipur, and why time in nature matters for mental well-being. [Watch](https://www.facebook.com/share/v/1HPuRDi2Ji/)"
+      ] },
+      { type: "h", text: "Essays and poems" },
+      { type: "list", items: [
+        "**My Watercolors:** an essay about a broken paint set and how my mother and teachers helped me find my creativity again.",
+        "**The Blue Star:** an essay about my time as class captain and a classmate I lost.",
+        "**Will You Smile a Little?** and **The Dance of Six Seasons:** two poems."
+      ] },
+      { type: "list", title: "Recognition", items: [
+        "Runner-Up, English Fiesta 1.0 Writing Competition, 2024",
+        "Ten district essay prizes on national days and literary anniversaries, 2023–2026"
+      ] }
     ],
-    comingSoon: "Selected pieces will be added here."
+    link: { url: "https://sites.google.com/view/writingportfoliotonni/home", label: "Read my full writing portfolio →" }
   },
 
   /* ============== 7. ART & PHOTOGRAPHY ============== */
@@ -327,7 +345,6 @@ window.PORTFOLIO = {
     { title: "NeuroSynapse ranked #1 on the Borderless Student Launchpad", meta: "Borderless" },
     { title: "Featured in the newspaper while collecting data for my July Revolution research", meta: "News · Facebook", url: "https://www.facebook.com/share/p/1FYaFdjQqu/" },
     { title: "YouthGEN 2025", meta: "TECHious", url: "https://techious.org/youthgen-2025/" },
-    { title: "Science project presentation, National Science and Technology Fair", meta: "Video · Facebook", url: "https://www.facebook.com/share/v/1BJ9uj1Hp4/" },
     { title: "Featured post", meta: "Facebook", url: "https://www.facebook.com/share/p/19NtqTTXGT/" }
   ],
   moments: [],
