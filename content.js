@@ -235,7 +235,8 @@ window.PORTFOLIO = {
     photos: [
       { image: "assets/photos/mic-podium.jpg", caption: "Speaking at the podium.", alt: "Tonni speaking into a microphone at a podium beside a man in a suit" },
       { image: "assets/photos/mic-youth-day.jpg", pos: "50% 40%", caption: "Giving a speech on Youth Day at the Bangladesh Red Crescent Society.", alt: "Tonni speaking into a Red Crescent microphone at a podium" },
-      { image: "assets/photos/mic-singing-barsha.jpg", caption: "Singing with a friend at Youth Red Crescent’s Barsha Utsab, the monsoon festival, 2025.", alt: "Tonni singing into a microphone beside a friend, under decorative umbrellas" }
+      { image: "assets/photos/mic-singing-barsha.jpg", caption: "Singing with a friend at Youth Red Crescent’s Barsha Utsab, the monsoon festival, 2025.", alt: "Tonni singing into a microphone beside a friend, under decorative umbrellas" },
+      { image: "assets/photos/mic-rag-day-host.jpg", caption: "Hosting our Rag Day celebration.", alt: "Tonni smiling and speaking into a microphone outdoors as host of the event" }
     ]
   },
 
