@@ -31,7 +31,7 @@ window.PORTFOLIO = {
     { kind: "linkedin",  label: "LinkedIn",  handle: "fatematuj-tonni",          url: "https://www.linkedin.com/in/fatematuj-tonni/" },
     { kind: "youtube",   label: "YouTube",   handle: "@tonniteaches",            url: "https://www.youtube.com/@tonniteaches" },
     { kind: "facebook",  label: "Facebook",  handle: "fatematuj.johura.tonni",   url: "https://www.facebook.com/fatematuj.johura.tonni.2025" },
-    { kind: "instagram", label: "Instagram", handle: "@johura_tonni",            url: "https://www.instagram.com/johura_tonni/" },
+    { kind: "instagram", label: "Instagram", handle: "@tonnicissist",            url: "https://www.instagram.com/tonnicissist/" },
     { kind: "email",     label: "Email",     handle: "fatematujtonni@gmail.com", url: "mailto:fatematujtonni@gmail.com" }
   ],
 
